@@ -1,0 +1,1 @@
+export NTA=~/nta
