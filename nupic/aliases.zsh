@@ -1,4 +1,4 @@
-alias nta='cd $NTA'
-alias npc='cd $NTA/nupic'
-alias wall='cd $NTA/nupic.wallboard'
-alias ntools='cd $NTA/nupic.tools'
+alias nta='cd ~/nta'
+alias npc='cd $NUPIC'
+alias wall='cd ~/nta/nupic.wallboard'
+alias ntools='cd ~/nta/nupic.tools'
