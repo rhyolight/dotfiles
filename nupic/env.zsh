@@ -2,6 +2,8 @@ export NTA=~/nta
 
 # Location of numenta.org source code
 export NUMENTA_ORG=$NTA/numenta.org
+# Location of numenta/nupic.core checkout
+export NUPIC_CORE=$NTA/nupic.core
 # Target source/repo path (where you cloned the repo). Defaults to $PWD
 export NUPIC=$NTA/nupic
 # NTA installation path
