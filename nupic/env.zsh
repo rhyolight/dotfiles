@@ -16,5 +16,9 @@ export NUMENTA_ORG=$NTA/numenta.org
 # Location of numenta/nupic.core checkout
 export NUPIC_CORE=$NTA/nupic.core
 
-# Location of CPP compiler for Nupic
-export CXX=/usr/bin/clang
+# export CXX=/usr/bin/clang++
+# export CXX=g++
+#export CC=gcc
+#export CXX=g++
+export CC=clang
+export CXX=clang++
