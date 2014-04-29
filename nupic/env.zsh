@@ -1,15 +1,8 @@
 # Installation path
-export NTA=$HOME/nta/eng
-# Target source/repo path. Defaults to $PWD
 export NUPIC=$HOME/nta/nupic
-# Convenience variable for temporary build files
-export BUILDDIR=/tmp/ntabuild
-# Number of jobs to run in parallel (optional)
-export MK_JOBS=3
-
-# Set up the rest of the necessary env variables. Must be done after
-# setting $NTA.
-source $NUPIC/env.sh
+export NTA=$NUPIC/build/release
+export NTA_ROOT_DIR=$NTA
+export PYTHONPATH=$PYTHONPATH:$NTA/lib/python2.7/site-packages
 
 # Location of numenta.org source code
 export NUMENTA_ORG=$NTA/numenta.org
@@ -22,3 +15,4 @@ export NUPIC_CORE=$NTA/nupic.core
 #export CXX=g++
 export CC=clang
 export CXX=clang++
+
