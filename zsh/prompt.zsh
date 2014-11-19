@@ -82,5 +82,6 @@ precmd() {
   set_prompt
 }
 
-antigen-bundle arialdomartini/oh-my-git
+antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle arialdomartini/oh-my-git
 antigen theme arialdomartini/oh-my-git-themes arialdo-granzestyle
