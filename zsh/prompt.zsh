@@ -81,3 +81,6 @@ precmd() {
   title "zsh" "%m" "%55<...<%~"
   set_prompt
 }
+
+antigen-bundle arialdomartini/oh-my-git
+antigen theme arialdomartini/oh-my-git-themes arialdo-granzestyle

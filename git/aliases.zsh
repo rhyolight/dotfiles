@@ -21,5 +21,7 @@ alias grm="git status | grep deleted | awk '{\$1=\$2=\"\"; print \$0}' | \
 alias gpum='git pull upstream master'
 alias gpug='git pull upstream gh-pages'
 alias gphm='git push heroku master'
+alias gpr='git pull-request'
+alias gcg='git checkout gh-pages'
 
 alias git=hub
